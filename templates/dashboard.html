@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Dashboard</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<h2>Student AI</h2>
+
+<a href="/">Dashboard</a>
+<a href="/predict">Prediction</a>
+
+</div>
+
+<div class="main">
+
+<h1>Smart Student Performance Prediction</h1>
+
+<div class="cards">
+
+<div class="card">
+<h2>Students</h2>
+<p>500</p>
+</div>
+
+<div class="card">
+<h2>Accuracy</h2>
+<p>92%</p>
+</div>
+
+<div class="card">
+<h2>Predictions</h2>
+<p>1200</p>
+</div>
+
+</div>
+
+<h2>Welcome to Dashboard</h2>
+
+<p>
+Predict student performance using Machine Learning.
+</p>
+
+<a href="/predict">
+<button>Start Prediction</button>
+</a>
+
+</div>
+
+</body>
+</html>

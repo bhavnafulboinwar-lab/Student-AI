@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Prediction</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="form-box">
+
+<h1>Student Prediction Form</h1>
+
+<form action="/result" method="POST">
+
+<input type="number"
+name="attendance"
+placeholder="Attendance %"
+required>
+
+<input type="number"
+name="study_hours"
+placeholder="Study Hours"
+required>
+
+<input type="number"
+name="previous_score"
+placeholder="Previous Score"
+required>
+
+<button type="submit">
+
+Predict
+
+</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
