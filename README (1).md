@@ -72,9 +72,15 @@ Use of Deep Learning models for enhanced prediction accuracy.
 The Student Performance Prediction System demonstrates the practical application of Machine Learning in the education sector. By analyzing student-related factors and predicting academic outcomes, the system provides valuable insights for students, teachers, and educational institutions. The project promotes data-driven decision-making and supports academic improvement initiatives.
 ## References
 Scikit-learn Documentation – https://scikit-learn.org
+
 Pandas Documentation – https://pandas.pydata.org
+
 NumPy Documentation – https://numpy.org
+
 Flask Documentation – https://flask.palletsprojects.com
+
 Educational Data Mining Research Papers
+
 Kaggle Student Performance Dataset
+
 Machine Learning for Educational Analytics Literature
