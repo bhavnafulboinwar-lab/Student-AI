@@ -7,13 +7,13 @@ Educational institutions generate large amounts of student data that can be util
 Several studies have demonstrated the effectiveness of Machine Learning algorithms in educational data mining. Research indicates that factors such as parental education, study habits, socioeconomic conditions, and prior academic performance significantly influence student achievement. Algorithms including Linear Regression, Decision Trees, Random Forests, and Gradient Boosting have been widely used for academic performance prediction due to their ability to identify complex relationships within educational datasets.
 
 ## Methodology
-**Data Collection:**Student performance dataset collected from educational records.
+**Data Collection:** Student performance dataset collected from educational records.
 
-**Data Preprocessing:**Handling missing values, encoding categorical features, and scaling numerical features.
+**Data Preprocessing:** Handling missing values, encoding categorical features, and scaling numerical features.
 
 **Exploratory Data Analysis (EDA):** Understanding data distribution and identifying relationships between variables.
 
-**Feature Engineering:**Selecting relevant features affecting student performance.
+**Feature Engineering:** Selecting relevant features affecting student performance.
 
 **Model Training:** Training multiple Machine Learning models such as Linear Regression, Random Forest, Decision Tree, XGBoost, and CatBoost.
 
