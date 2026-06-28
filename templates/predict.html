@@ -1,40 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Prediction</title>
 
-<link rel="stylesheet"
-href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
 </head>
 
 <body>
 
-<div class="form-box">
+<div class="container">
 
-<h1>Student Prediction Form</h1>
+<h1>Student Performance Prediction</h1>
 
 <form action="/result" method="POST">
 
-<input type="number"
-name="attendance"
-placeholder="Attendance %"
-required>
+<label>Gender</label>
 
-<input type="number"
-name="study_hours"
-placeholder="Study Hours"
-required>
+<select name="gender">
+<option value="female">Female</option>
+<option value="male">Male</option>
+</select>
 
-<input type="number"
-name="previous_score"
-placeholder="Previous Score"
-required>
+<label>Race / Ethnicity</label>
 
-<button type="submit">
+<select name="race_ethnicity">
+<option value="group A">Group A</option>
+<option value="group B">Group B</option>
+<option value="group C">Group C</option>
+<option value="group D">Group D</option>
+<option value="group E">Group E</option>
+</select>
 
-Predict
+<label>Parental Education</label>
+
+<select name="parental_level_of_education">
+<option value="associate's degree">Associate's Degree</option>
+<option value="bachelor's degree">Bachelor's Degree</option>
+<option value="high school">High School</option>
+<option value="master's degree">Master's Degree</option>
+<option value="some college">Some College</option>
+<option value="some high school">Some High School</option>
+</select>
+
+<label>Lunch</label>
+
+<select name="lunch">
+<option value="standard">Standard</option>
+<option value="free/reduced">Free / Reduced</option>
+</select>
+
+<label>Test Preparation</label>
+
+<select name="test_preparation_course">
+<option value="completed">Completed</option>
+<option value="none">None</option>
+</select>
+
+<label>Reading Score</label>
+
+<input type="number" name="reading_score" min="0" max="100" required>
+
+<label>Writing Score</label>
+
+<input type="number" name="writing_score" min="0" max="100" required>
+
+<button type="submit" class="btn">
+
+Predict Score
 
 </button>
 
@@ -43,4 +82,5 @@ Predict
 </div>
 
 </body>
+
 </html>

@@ -1,57 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Student Performance Prediction</title>
 
-<title>Dashboard</title>
-
-<link rel="stylesheet"
-href="{{ url_for('static', filename='style.css') }}">
-
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
 <body>
 
-<div class="sidebar">
+<div class="hero">
 
-<h2>Student AI</h2>
+    <div class="hero-content">
 
-<a href="/">Dashboard</a>
-<a href="/predict">Prediction</a>
+        <h1>🎓 Smart Student Performance Prediction System</h1>
 
-</div>
+        <p>
+            Predict students' Math Score using Artificial Intelligence and Machine Learning.
+        </p>
 
-<div class="main">
+        <a href="/predict">
+            <button class="btn">
+                Start Prediction
+            </button>
+        </a>
 
-<h1>Smart Student Performance Prediction</h1>
-
-<div class="cards">
-
-<div class="card">
-<h2>Students</h2>
-<p>500</p>
-</div>
-
-<div class="card">
-<h2>Accuracy</h2>
-<p>92%</p>
-</div>
-
-<div class="card">
-<h2>Predictions</h2>
-<p>1200</p>
-</div>
-
-</div>
-
-<h2>Welcome to Dashboard</h2>
-
-<p>
-Predict student performance using Machine Learning.
-</p>
-
-<a href="/predict">
-<button>Start Prediction</button>
-</a>
+    </div>
 
 </div>
 
